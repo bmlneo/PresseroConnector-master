@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  presseroconnector:
+    image: presseroconnector
+    build:
+      context: ./PresseroConnector
+      dockerfile: Dockerfile
