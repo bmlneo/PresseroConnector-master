@@ -63,6 +63,19 @@ namespace PresseroConnector.Managers
                 case Constants.FULTON_SITE_ID:
                     receiverCode = Constants.NM_RECEIVER_CODE_FULTON;
                     break;
+                case Constants.CATHSUPER_SITE_ID:
+                    receiverCode = Constants.NM_RECEIVER_CODE_CATHSUPER;
+                    break;
+                case Constants.NDY_SITE_ID:
+                    receiverCode = Constants.NM_RECEIVER_CODE_NDY;
+                    break;
+                case Constants.RHALF_SITE_ID:
+                    receiverCode = Constants.NM_RECEIVER_CODE_RHALF;
+                    break;
+                case Constants.GADENS_SITE_ID:
+                    receiverCode = Constants.NM_RECEIVER_CODE_GADENS;
+                    break;
+
             }
 
             StringBuilder sb = new StringBuilder();
