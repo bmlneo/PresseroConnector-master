@@ -503,6 +503,7 @@ namespace PresseroConnector.Controllers
                 case Constants.NDY_SITE_ID:
                 case Constants.RHALF_SITE_ID:
                 case Constants.GADENS_SITE_ID:
+                case Constants.PITCHER_SITE_ID: //14-06-22
 
 
 

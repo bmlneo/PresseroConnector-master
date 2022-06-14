@@ -23,7 +23,9 @@ namespace PresseroConnector
         public const string NDY_SITE_ID = "bd87d040-9220-4e0c-9de9-1478f2fc53ec";
         public const string RHALF_SITE_ID = "6144a34c-7938-42cb-8fe8-2407fba80680";
         public const string GADENS_SITE_ID = "27690a12-db66-499a-bb6c-481c8a8964af";
-        
+
+        public const string PITCHER_SITE_ID = "367f3b73-2b3d-482e-a69f-7d319249fe42";
+
 
         // Nichemark reciever code
         public const string NM_RECEIVER_CODE_LIBERTY_MEDICAL = "NOYS01";
@@ -41,8 +43,9 @@ namespace PresseroConnector
         public const string NM_RECEIVER_CODE_NDY = "NDY";
         public const string NM_RECEIVER_CODE_RHALF = "RHALF";
         public const string NM_RECEIVER_CODE_GADENS = "GADENS";
-        
-        
+
+        public const string NM_RECEIVER_CODE_PITCHER = "PITCHER";
+
 
         public readonly static string[] CONVATEC_ADMIN_EMAILS = new string[]
         {

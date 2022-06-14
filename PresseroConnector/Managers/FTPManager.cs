@@ -75,6 +75,9 @@ namespace PresseroConnector.Managers
                 case Constants.GADENS_SITE_ID:
                     receiverCode = Constants.NM_RECEIVER_CODE_GADENS;
                     break;
+                case Constants.PITCHER_SITE_ID:
+                    receiverCode = Constants.NM_RECEIVER_CODE_PITCHER;
+                    break;
 
             }
 
